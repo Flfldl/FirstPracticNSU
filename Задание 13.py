@@ -1,0 +1,6 @@
+A = int(input("Введите расстояние в сантиметрах: "))
+Inch = int(A / 2.54)
+Foot = int(Inch / 12)
+Yards = int(Foot / 3)
+Miles = int(Yards / 1760)
+print(f'{Inch} Дюймов\n{Foot} Футов\n{Yards} Ярдов\n{Miles} Миль')
