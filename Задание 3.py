@@ -1,3 +1,2 @@
-S=67
-R=69
-print(S + R)
+A, B = map(int, input("Введите стоимость двух шоколадок: ").split())
+print(A + B)
